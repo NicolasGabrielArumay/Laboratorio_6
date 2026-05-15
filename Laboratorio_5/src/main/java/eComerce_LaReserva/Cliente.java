@@ -1,0 +1,100 @@
+package eComerce_LaReserva;
+
+public class Cliente {
+
+    private int idCliente;
+    private String nombre;
+    private String apellido;
+    private String email;
+    private String direccion;
+    private String instagram;
+    private String facebook;
+    private Pedido pedido;
+
+    public Cliente() {
+    }
+
+    public Cliente(int idCliente, String nombre, String apellido, String email, String direccion, String instagram, String facebook, Pedido pedido) {
+        this.idCliente = idCliente;
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.email = email;
+        this.direccion = direccion;
+        this.instagram = instagram;
+        this.facebook = facebook;
+        this.pedido = pedido;
+    }
+
+    public int getIdCliente() {
+        return idCliente;
+    }
+
+    public void setIdCliente(int idCliente) {
+        this.idCliente = idCliente;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getApellido() {
+        return apellido;
+    }
+
+    public void setApellido(String apellido) {
+        this.apellido = apellido;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getDireccion() {
+        return direccion;
+    }
+
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
+    }
+
+    public String getInstagram() {
+        return instagram;
+    }
+
+    public void setInstagram(String instagram) {
+        this.instagram = instagram;
+    }
+
+    public String getFacebook() {
+        return facebook;
+    }
+
+    public void setFacebook(String facebook) {
+        this.facebook = facebook;
+    }
+
+    public Pedido getPedido() {
+        return pedido;
+    }
+
+    public void setPedido(Pedido pedido) {
+        this.pedido = pedido;
+    }
+
+    public Pedido realizarPedido() {
+        return pedido;
+    }
+
+    @Override
+    public String toString() {
+        return "Cliente{" + "idCliente=" + idCliente + ", nombre=" + nombre + ", apellido=" + apellido + ", email=" + email + ", direccion=" + direccion + ", instagram=" + instagram + ", facebook=" + facebook + ", pedido=" + pedido + '}';
+    }
+}
