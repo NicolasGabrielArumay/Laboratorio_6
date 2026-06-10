@@ -1,6 +1,8 @@
 
 package Mat_NoodlesSRL;
 
+import java.util.Scanner;
+
 public class Cliente {
     private String nombre;
     private String apellido;
@@ -68,4 +70,22 @@ public class Cliente {
                 ", direccion=" + direccion + '}';
     }
     
+    public void cargarDatos() {
+    Scanner sc = new Scanner(System.in);
+
+    System.out.print("Nombre: ");
+    nombre = sc.nextLine();
+
+    System.out.print("Apellido: ");
+    apellido = sc.nextLine();
+    
+    System.out.print("Mail: ");
+    mail = sc.nextLine();
+    
+    System.out.print("telefono: ");
+    telefono = sc.nextLine();
+    
+    System.out.print("Direccion: ");
+    direccion = sc.nextLine();
+}
 }

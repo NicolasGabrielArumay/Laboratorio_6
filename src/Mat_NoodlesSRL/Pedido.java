@@ -16,6 +16,10 @@ public class Pedido {
 
     public Pedido() {
     }
+    
+    public Pedido(Cliente cliente){
+        this.cliente = cliente;
+    }
 
     public Cliente getCliente() {
         return cliente;
@@ -49,6 +53,5 @@ public class Pedido {
         
     }
 
-    
     
 }
