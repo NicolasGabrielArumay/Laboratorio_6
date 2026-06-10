@@ -72,7 +72,10 @@ public class Cliente {
     
     public void cargarDatos() {
     Scanner sc = new Scanner(System.in);
-
+    
+    System.out.println("Bienvenido a Mat-Noodles SRL");
+    System.out.println("\nDatos del cliente");
+    
     System.out.print("Nombre: ");
     nombre = sc.nextLine();
 

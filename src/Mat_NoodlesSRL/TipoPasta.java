@@ -14,7 +14,7 @@ public enum TipoPasta {
         this.porKg = porKg;
     }
 
-    public boolean isPorKg() {
+    public boolean esPorKg() {
         return porKg;
     }
 }

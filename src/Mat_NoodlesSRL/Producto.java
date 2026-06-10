@@ -1,28 +1,29 @@
 
 package Mat_NoodlesSRL;
 
-public class Productos {
-    private String tipoPasta;
+public class Producto {
+    private TipoPasta tipoPasta;
     private double cantidad;
     private double precio;
 
-    public Productos() {
+    public Producto() {
     }
 
-    public Productos(String tipoPasta, double cantidad, double precio) {
+    public Producto(TipoPasta tipoPasta, double cantidad, double precio) {
         this.tipoPasta = tipoPasta;
         this.cantidad = cantidad;
         this.precio = precio;
     }
 
-    public String getTipoPasta() {
+    public TipoPasta getTipoPasta() {
         return tipoPasta;
     }
 
-    public void setTipoPasta(String tipoPasta) {
+    public void setTipoPasta(TipoPasta tipoPasta) {
         this.tipoPasta = tipoPasta;
     }
 
+    
     public double getCantidad() {
         return cantidad;
     }
@@ -51,5 +52,4 @@ public class Productos {
     
     
     }
-    
 }
