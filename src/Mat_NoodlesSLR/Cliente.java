@@ -84,10 +84,7 @@ public class Cliente{
     public String toString() {
         return "Cliente: " +
                 nombre + " " 
-                + apellido + "\n" +
-                "Mail='" + mail + "\n" +
-                "Telefono='" + telefono + "\n" +
-                "Direccion='" + direccion + "\n";
+                + apellido;
     }
     public void pedirDatos() {
 

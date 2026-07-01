@@ -44,7 +44,7 @@ public class Producto{
 
     @Override
     public String toString() {
-        return tipo + " Cantidad: " + cantidad + " Precio: $" + precio;
+        return "Tipo de Pasta: "+ tipo + " Cantidad: " + cantidad;
     }
     
     public void cargarProducto() throws PedidoInvalidoException {

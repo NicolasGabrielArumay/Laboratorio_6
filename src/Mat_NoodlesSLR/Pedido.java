@@ -53,7 +53,6 @@ public class Pedido {
         this.total = total;
     }
     
-
     @Override
     public String toString() {
         return "Cliente: " + cliente +
@@ -131,6 +130,6 @@ public class Pedido {
             System.out.println(p);
         }
 
-        System.out.println("Total: $" + calcularTotal());
+        System.out.println("Importe: $" + calcularTotal());
     }
 }
